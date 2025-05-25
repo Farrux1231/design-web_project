@@ -17,8 +17,8 @@ const Header = () => {
       {/* Blur Overlay */}
       <div className="absolute top-0 left-0 w-full h-full bg-black/55 backdrop-blur-[1px]"></div>
 
-      <div className="absolute z-10 w-[600px] flex justify-center">
-        <img src={logo} alt="something" className="h-[350px]" />
+      <div className="absolute z-10 w-[550px] flex justify-center">
+        <img src={logo} alt="something" className="h-[290px]" />
       </div>
     </div>
 

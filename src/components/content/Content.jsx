@@ -43,7 +43,7 @@ const Content = () => {
 
   return (
     <div className='w-full bg-[#f8f6f6]'>
-        <div className="grid grid-cols-6 grid-rows-3 gap-4 p-6 py-[115px] w-[90%] m-auto">
+        <div className="grid grid-cols-6 grid-rows-3 gap-4 p-6 py-[95px] w-[90%] m-auto">
             <div className="col-span-4 row-span-1 relative group overflow-hidden rounded-[5px] shadow-lg ">
               <Item item={items[0]} />
             </div>
@@ -89,7 +89,7 @@ const Item = ({ item }) => {
 
   return (
     <div
-      className="w-full h-[550px] relative overflow-hidden rounded-[5px] shadow-lg group "
+      className="w-full h-[440px] relative overflow-hidden rounded-[5px] shadow-lg group "
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >

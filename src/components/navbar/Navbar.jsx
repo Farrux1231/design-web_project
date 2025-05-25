@@ -17,13 +17,13 @@ const Navbar = () => {
     
   }
   return (
-  <nav className="bg-white p-6 sticky top-0 z-50">
-    <div className="flex items-center justify-between" style={{ padding: "0 90px" }}>
+  <nav className="bg-white p-4.5 sticky top-0 z-50 ">
+    <div className="flex items-center justify-between" style={{ padding: "0 60px" }}>
       <NavLink className="flex items-center space-x-4" to="/" onClick={()=>handleClick("img")}>
-        <img src={miniLogo} alt="Logo" className="h-17 w-auto" />
+        <img src={miniLogo} alt="Logo" className="h-13 w-auto" />
       </NavLink>
 
-      <div className="flex items-center gap-10 text-gray-500 font-semibold text-[19px]">
+      <div className="flex items-center gap-10 text-gray-500 font-semibold text-[15px]">
           <NavLink to="/">
               <span className="cursor-pointer hover:text-gray-900 transition" onClick={()=>handleClick("portfolio")}>PORTFOLIO</span>
           </NavLink>
